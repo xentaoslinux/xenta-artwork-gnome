@@ -1,0 +1,16 @@
+Source: xenta-artwork-gnome
+Section: admin
+Priority: optional
+Maintainer: Dindin Hernawan (Xenta OS) <dindin_hernawan@yahoo.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.7
+Homepage: https://github.com/xentaoslinux/xenta-artwork-gnome
+Vcs-Browser: https://github.com/xentaoslinux/xenta-artwork-gnome.git
+
+Package: xenta-artwork-gnome
+Architecture: all
+Replaces: mint-artwork-gnome
+Conflicts: mint-artwork-gnome
+Depends: xenta-artwork-common, gtk2-engines, gtk2-engines-murrine, gtk2-engines-pixbuf, xenta-x-icons, xenta-backgrounds-batik
+Description: Paket Artwork Bawaan untuk Xenta OS
+ Paket Artwork Bawaan untuk Xenta OS.
